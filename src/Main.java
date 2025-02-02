@@ -45,8 +45,8 @@ public class Main {
         System.out.println("Задача№6");
         double boxFirstWeight = 78.2;
         double boxSecondWeingt = 82.7;
-        System.out.println(boxFirstWeight + boxSecondWeingt );
-        System.out.println("Разица между весами боксеров " + (boxSecondWeingt - boxFirstWeight ));
+        System.out.println(boxFirstWeight + boxSecondWeingt);
+        System.out.println("Разица между весами боксеров " + (boxSecondWeingt - boxFirstWeight));
 
         System.out.println("Задача№7");
         double differenceBetweenScales = boxSecondWeingt % boxFirstWeight;
@@ -62,6 +62,10 @@ public class Main {
         var newTime = numberEmployees * 8;
         System.out.println("Если в компании работает " + numberEmployees + " человек, то всего " + newTime + " часов " +
                 "работы может быть поделено между сотрудниками.");
+
+
+
+
 
 
 
